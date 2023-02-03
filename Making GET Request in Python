@@ -1,0 +1,8 @@
+#Web Scraping with Python
+#Making GET request
+import requests
+r = requests('https://github.com/Bhargav-248/WebScraping-WithPython')
+print(r)
+print(r.contents)
+
+#print contents of the request
