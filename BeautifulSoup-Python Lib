@@ -1,7 +1,7 @@
 # Making a GET request in python
 import requests
 from bs4 import BeautifulSoup
-r = requests.get('https://www.geeksforgeeks.org/python-programming-language/')
+r = requests.get('https://github.com/Bhargav-248/WebScraping-WithPython')
 print(r)
 # Parsing the HTML in Python
 soup = BeautifulSoup(r.content, 'html.parser')
